@@ -4,8 +4,9 @@
 def key_for_min_value(hash)
   min_key = ""
   hash.each do |k, v|
-    if v < hash[!k]
-    min_key = k
-    end
+    
+  min_key = k
+  
   end
+  min_key
 end
